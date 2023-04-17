@@ -13,7 +13,7 @@ public class CucumberHooks extends Initialize {
     public void openBrowser() throws Exception {
 
         if(browserType.equalsIgnoreCase("chrome")) {
-//            System.setProperty("webdriver.chrome.driver", "../BDDCucumber/src/test/java/resources/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
             ChromeOptions options = new ChromeOptions();
 
@@ -21,15 +21,15 @@ public class CucumberHooks extends Initialize {
             options.addArguments("--remote-allow-origins=*");
 
 
-            browser = new ChromeDriver(options);
+            driver = new ChromeDriver(options);
         } else if(browserType.equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver", "../BDDCucumber/src/test/java/resources/geckodriver.exe");
-            browser = new FirefoxDriver();
+            driver = new FirefoxDriver();
         }
     }
 
     @After
     public void closeBrowser() throws Exception {
-        browser.close();
+//        driver.close();
     }
 }

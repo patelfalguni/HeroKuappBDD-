@@ -1,18 +1,19 @@
 package StepDefination;
 
 import io.cucumber.java.en.*;
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 import org.example.pageobjects.SkySignUpPage;
+import org.example.utilities.Initialize;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SkySignUpStep {
-    public WebDriver driver;
+    public WebDriver driver = Initialize.driver;
     public SkySignUpPage skySignUpPage;
     @Given("User launch chrome browser")
     public void user_launch_chrome_browser() {
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
 
         skySignUpPage = new SkySignUpPage(driver);

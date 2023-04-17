@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ecadbc-daea-4544-8189-cbc11dbf6157" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
+    <list default="true" id="81ecadbc-daea-4544-8189-cbc11dbf6157" name="Changes" comment="adding file">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utilities/Initialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utilities/Initialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/HeroKuapp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/HeroKuapp.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunCucumberDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunCucumberDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/CucumberHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/SkySignUpStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/SkySignUpStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +40,16 @@
       </map>
     </option>
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="380ecf1f-8d92-438b-9c4c-7a983787c2c5" />
-        <option name="url" value="https://github.com/patelfalguni/cucumberbddframework.git" />
+        <option name="url" value="https://github.com/patelfalguni/HeroKuappBDD-.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -69,17 +74,26 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects 1(3)/javabddframework/README.md&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects 1(3)/javabddframework/CucumberBDDFramework/src/main/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.utilities" />
       <recent name="org.example.pageobjects" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects 1(3)\javabddframework\CucumberBDDFramework\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunCucumberDemoTest">
@@ -122,21 +136,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Successful Navigate to Sky Signup page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/SkyAccount.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="All in CucumberBDDFramework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberBDDFramework" />
-      <option name="NAME_FILTER" value="^Successful Navigate to Sky Signup page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful Navigate to Sky Signup page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successful Navigate to Sky Signup page" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunCucumberTest" />
         <item itemvalue="JUnit.RunCucumberDemoTest" />
-        <item itemvalue="Cucumber Java.Scenario: Successful Navigate to Sky Signup page" />
-        <item itemvalue="Cucumber Java.Scenario: Successful Navigate to HeroKuapp home page" />
+        <item itemvalue="JUnit.All in CucumberBDDFramework" />
         <item itemvalue="Cucumber Java.Feature: HeroKuapp" />
+        <item itemvalue="Cucumber Java.Scenario: Successful Navigate to HeroKuapp home page" />
+        <item itemvalue="JUnit.RunCucumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679265385451</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding file">
+      <created>1679269435488</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679269435488</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,20 +229,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding file" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RunCucumberDemoTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="adding file" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CucumberBDDFramework$RunCucumberTest.ic" NAME="RunCucumberTest Coverage Results" MODIFIED="1676764368048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

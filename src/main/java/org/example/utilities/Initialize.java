@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Initialize {
 
-    public static WebDriver browser;
+    public static WebDriver driver;
     public static String base_url = "https://the-internet.herokuapp.com";
     public static String browserType = "chrome";
 

@@ -4,10 +4,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = ".//src/test/java/Features/HeroKuapp.feature",
+        features = "src/test/java/Features",
         glue = "StepDefination",
         dryRun = false,
         monochrome = true,
+        tags = "@TestOne",
         plugin = {"pretty", "html:target/cucumber-report.html"})
 
 
