@@ -22,7 +22,7 @@ Examples:
     Then User should arrive on Login Page
     Then User enter invalid "<username>" and "<password>"
     And User click on the Login button
-    Then User should be logged in successfully
+    Then User should see " Your username is invalid!" text on the page
     Examples:
       | username | password |
       | johnspencer | johncer|
