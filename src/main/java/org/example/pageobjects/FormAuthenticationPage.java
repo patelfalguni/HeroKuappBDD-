@@ -35,11 +35,11 @@ public class FormAuthenticationPage extends Initialize
 
 
     public void enterUsername(String username){
-       driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
+       driver.findElement(text_username).sendKeys(username);
 
     }
     public void enterPassword(String password){
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+        driver.findElement(text_password).sendKeys(password);
 
    }
    public void clickLogin(){
@@ -54,9 +54,9 @@ public class FormAuthenticationPage extends Initialize
     public void enterUserInvalid(String username,String password){
 
 
-        driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
+        driver.findElement(text_username).sendKeys(username);
 
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+        driver.findElement(text_password).sendKeys(password);
         driver.findElement(btn_login).click();
     }
 
