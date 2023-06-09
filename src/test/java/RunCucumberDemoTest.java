@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         glue = "StepDefination",
         dryRun = false,
         monochrome = true,
-        tags = "@TestOne",
+        tags = "@TestSix",
         plugin = {"pretty", "html:target/cucumber-report.html"})
 
 

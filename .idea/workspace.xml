@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81ecadbc-daea-4544-8189-cbc11dbf6157" name="Changes" comment="adding file">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageobjects/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageobjects/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageobjects/FormAuthenticationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageobjects/HeroKuappCheckboxesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageobjects/HerokuappBasicAuthPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/VerifyBasicAuth.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/VerifyCheckboxes.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/VerifyDropdown.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/VerifyForgotPassword.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/VerifyFormAuthentication.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/DropdownStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/ForgotPasswordStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/FormAuthenticationStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/HeroKuappBasicAuthStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/HeroKuappCkeckboxesStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utilities/Initialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utilities/Initialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/HeroKuapp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/HeroKuapp.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RunCucumberDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunCucumberDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/CucumberHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/SkySignUpStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/SkySignUpStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +82,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -97,14 +112,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunCucumberDemoTest">
-    <configuration name="Feature: HeroKuapp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: VerifyForgotPassword (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/HeroKuapp.feature" />
-      <option name="GLUE" value="StepDefination org.example.utilities" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/VerifyForgotPassword.feature" />
+      <option name="GLUE" value="StepDefination" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBDDFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: HeroKuapp" />
+      <option name="SUGGESTED_NAME" value="Feature: VerifyForgotPassword" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,15 +131,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Successful Navigate to HeroKuapp home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: VerifyForgotPassword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/HeroKuapp.feature" />
-      <option name="GLUE" value="StepDefination org.example.utilities" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/VerifyForgotPassword.Feature" />
+      <option name="GLUE" value="StepDefination" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBDDFramework" />
-      <option name="NAME_FILTER" value="^Successful Navigate to HeroKuapp home page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful Navigate to HeroKuapp home page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successful Navigate to HeroKuapp home page" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: VerifyForgotPassword" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -136,10 +150,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in CucumberBDDFramework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: VerifyFormAuthentication" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/VerifyFormAuthentication.feature" />
+      <option name="GLUE" value="StepDefination" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBDDFramework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: VerifyFormAuthentication" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify Dropdown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/VerifyDropdown.feature" />
+      <option name="GLUE" value="StepDefination" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberBDDFramework" />
+      <option name="NAME_FILTER" value="^Verify Dropdown$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Dropdown$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Dropdown" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,22 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberBDDFramework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunCucumberTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunCucumberDemoTest" />
-        <item itemvalue="JUnit.All in CucumberBDDFramework" />
-        <item itemvalue="Cucumber Java.Feature: HeroKuapp" />
-        <item itemvalue="Cucumber Java.Scenario: Successful Navigate to HeroKuapp home page" />
-        <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="Cucumber Java.Feature: VerifyForgotPassword (1)" />
+        <item itemvalue="Cucumber Java.Feature: VerifyForgotPassword" />
+        <item itemvalue="Cucumber Java.Feature: VerifyFormAuthentication" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Dropdown" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679269435488</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding file">
+      <created>1681733799119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681733799119</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +275,21 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="adding file" />
     <option name="LAST_COMMIT_MESSAGE" value="adding file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="io.cucumber.core.runner.DuplicateStepDefinitionException" package="io.cucumber.core.runner" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefination/HeroKuappCkeckboxesStep.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CucumberBDDFramework$RunCucumberTest.ic" NAME="RunCucumberTest Coverage Results" MODIFIED="1676764368048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

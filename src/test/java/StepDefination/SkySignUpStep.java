@@ -19,12 +19,12 @@ public class SkySignUpStep {
         skySignUpPage = new SkySignUpPage(driver);
 
     }
-    @When("User opens URL {string}")
-    public void user_opens_url(String url) {
-        driver.get(url);
-
-
-    }
+//    @When("User opens URL {string}")
+//    public void user_opens_url(String url) {
+//        driver.get(url);
+//
+//
+//    }
     @When("User click on the Signup button")
     public void user_click_on_the_signup_button() {
         skySignUpPage.clickonSignupButton();
